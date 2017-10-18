@@ -1,0 +1,8 @@
+#NAPALM CLI TOOL EXAMPLES
+=========================
+
+#NAPALM CLI example to send commands to equipment
+sudo napalm --user <user> --password <password> --vendor nxos <ip address/host> call cli --method-kwargs "commands=['<command, ex. 'show version>']"
+
+#NAPALM CLI example to send napalm supported command to equipment
+sudo napalm --user <user> --password <password> --vendor nxos <ip address/host> call <napalm supported command, ex. get_interfaces>

@@ -9,7 +9,9 @@ from napalm import get_network_driver
 driver = get_network_driver('nxos')
 
 #DEVICE DEFINITIONS
-dev = driver(hostname='192.168.250.6', username='admin', password='Pl3xeCu73!')
+dev = driver(hostname='<ip address>', username='<username>', password='<password>')
 dev.open()
+dev.close()
+
 
 

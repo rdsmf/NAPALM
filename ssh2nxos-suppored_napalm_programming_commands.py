@@ -23,7 +23,7 @@ print(json.dumps(<variable nam>, sort_keys=True, indent=4))
 dev.close()
 
 
-#*Example NAPALM programming command to get BGP neighbors*
+#Example NAPALM programming command to get BGP neighbors
 
 #Define variable to print in JSON notation
 #bgp_neighbors = dev.get_bgp_neighbors()
